@@ -1,0 +1,215 @@
+        @import url('fonts/main_font.css');
+
+        * {
+            margin: 0;
+            font-family: 'StratosSkyeng', sans-serif;
+        }
+
+        .content {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #d0a2ed;
+        }
+
+        .center {
+            padding-left: calc(50% - 500px);
+            padding-right: calc(50% - 500px);
+        }
+
+        .facts-content {
+            text-align: center;
+            padding-top: 80px;
+            margin-top: 50px;
+        }
+
+        .facts-content h1 {
+            font-size: 48px;
+            margin-bottom: 30px;
+        }
+
+        .facts-list {
+            font-size: 20px;
+            line-height: 1.8;
+            text-align: left;
+            margin-top: 30px;
+            display: inline-block;
+            max-width: 700px;
+            padding-left: 30px;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .navigation a {
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 20px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            background-color: #007bff;
+            transition: background-color 0.3s ease;
+        }
+
+        .navigation a:hover {
+            background-color: #0056b3;
+        }
+
+
+        .content {
+            position: relative;
+        }
+
+        .page-nav a {
+            display: block;
+            background-color: #894AFF;
+            color: #ffffff;
+            padding: 1px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 38px;
+            position: absolute;
+            top: 20px;
+            z-index: 100;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        .prev-page {
+            left: 20px;
+        }
+
+        .next-page {
+            right: 20px;
+        }
+
+        .page-nav a.disabled {
+            background-color: #cccccc;
+            pointer-events: none;
+            opacity: 0.5;
+        }
+
+        .page-nav a:hover:not(.disabled) {
+            background-color: #6a2fd8;
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(106, 47, 216, 0.4);
+        }
+
+
+
+        .meme-gallery {
+            margin: 16px 0;
+            gap: 16px;
+        }
+
+        .index-content {
+            margin: 30px auto;
+        }
+
+        .facts-content {
+            margin: 40px 20px;
+        }
+
+        .quotes-content {
+            margin: 50px auto;
+        }
+
+        .description {
+            margin: 25px 0;
+        }
+
+        .welcome-text {
+            margin: 35px 0;
+        }
+
+
+        .index-content,
+        .facts-content,
+        .memes-content,
+        .quotes-content {
+            padding: 40px;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            padding-top: 128px;
+            padding-bottom: 128px;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            padding-left: 128px;
+            padding-right: 128px;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            padding: 128px;
+        }
+
+        @media (max-width: 768px) {
+            .page-nav a {
+                font-size: 24px;
+                padding: 1px 20px;
+                top: 10px;
+            }
+
+        }
+
+
+        .prev-page {
+            left: 10px;
+        }
+
+        .next-page {
+            right: 10px;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            padding: 64px;
+        }
+
+        html,
+        body,
+        div,
+        section,
+        h1,
+        h2,
+        h3,
+        p,
+        ul,
+        li,
+        .content,
+        .center,
+        .index-content {
+            margin: 0 !important;
+            padding: 0 !important;
+            border: 0 !important;
+        }
+
+        body {
+            margin: 0 !important;
+            padding: 0 !important;
+        }
